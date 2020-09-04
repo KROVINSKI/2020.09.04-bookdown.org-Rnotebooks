@@ -4,7 +4,6 @@ output: html_notebook
 --- 
 
 Hello World
-https://bookdown.org/yihui/rmarkdown/documents.html
 Following chapter 3 of R markdown Difinite Guide
 
 ### Table of Contents
