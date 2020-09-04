@@ -1,0 +1,57 @@
+---
+title: "R Notebook: Bookdown.org follow on Tutorial"
+output: html_notebook
+---
+
+Hello World
+https://bookdown.org/yihui/rmarkdown/documents.html
+Following chapter 3 of R markdown Difinite Guide
+
+### Table of Contents
+#   Chapter 3 Documents
+##  3.1.1 Chapter 3 (contents explained)
+##  3.1.2 Section Numbering
+##  3.1.3 
+
+
+
+# Chapter 3 Documents
+The very original version of Markdown was invented mainly to write HTML content more easily. For example, you can write a bullet with - text instead of the verbose HTML code <ul><li>text</li></ul>, or a quote with > text instead of <blockquote>text</blockquote>.
+
+The syntax of Markdown has been greatly extended by Pandoc. What is more, Pandoc makes it possible to convert a Markdown document to a large variety of output formats. In this chapter, we will introduce the features of various document output formats. In the next two chapters, we will document the presentation formats and other R Markdown extensions, respectively.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
