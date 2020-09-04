@@ -48,13 +48,24 @@ The very original version of Markdown was invented mainly to write HTML content 
 
 The syntax of Markdown has been greatly extended by Pandoc. What is more, Pandoc makes it possible to convert a Markdown document to a large variety of output formats. In this chapter, we will introduce the features of various document output formats. In the next two chapters, we will document the presentation formats and other R Markdown extensions, respectively.
 
+#### PANDOC
+Pandoc is a free and open-source document converter, widely used as a writing tool and as a basis for publishing workflows. It was created by John MacFarlane, a philosophy professor at the University of California, Berkeley
 
 
 
+## 3.1 HTML document
+As we just mentioned before, Markdown was originally designed for HTML output, so it may not be surprising that the HTML format has the richest features among all output formats. 
+We recommend that you read this full section before you learn other output formats, because other formats have several features in common with the HTML document format, and we will not repeat these features in the corresponding sections.
 
+To create an HTML document from R Markdown, you specify the html_document output format in the YAML metadata of your document:
 
-
-
+(putting dashes in quotations to avoid erroneous formatting)
+(---)
+title: Habits
+author: John Doe
+date: March 22, 2005
+output: html_document
+(---)
 
 
 
